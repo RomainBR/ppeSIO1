@@ -1,17 +1,17 @@
 <?php
 // inclusion de la page de configuration des constantes afin de rendre 
-// code aisément portable
+// code aisÃ©ment portable
 include("config.php");
 
-//inclusion du haut de la page, en utilisant la constante définie dans config.php
+//inclusion du haut de la page, en utilisant la constante dÃ©finie dans config.php
 include(PAGES."header.php");
 
-// test sur l'existance du paramètre action d'l'URL
+// test sur l'existance du paramÃ¨tre action d'l'URL
 if(isset($_GET["action"]))
 {
-	// récupartion de l'action passée dans l'url
+	// rÃ©cupartion de l'action passÃ©e dans l'url
 	$action=$_GET["action"];
-        // test de la valeur de la variable
+        // test de la valeur de la variable -- essai pour le github
 	switch ($action) {
 		case 'accueil':
 			include(PAGES."accueil.php");
