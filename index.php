@@ -11,7 +11,7 @@ if(isset($_GET["action"]))
 {
 	// rÃ©cupartion de l'action passÃ©e dans l'url
 	$action=$_GET["action"];
-        // test de la valeur de la variable -- essai pour le github
+        // test de la valeur de la variable
 	switch ($action) {
 		case 'accueil':
 			include(PAGES."accueil.php");
