@@ -9,7 +9,7 @@
                
                 <div class="col-sm-12">
                     <div class="copyright-text text-center"
-                        <p>Designed by <a target="_blank" href="#">PentaInfo</a></p>
+                        <p>Designed by PentaInfo</p>
                     </div>
                 </div>
             </div>
