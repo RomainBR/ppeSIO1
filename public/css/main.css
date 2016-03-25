@@ -2830,3 +2830,128 @@ header h2 {
 	margin: 0 15% 0 15%;
 	color: rgba(0,0,0, 1);
 }
+
+.accordionSpace,
+.accordionButton {	
+	width: 90%;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6 */
+	background: #fff;
+	color: #555;
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+	border-bottom: 1px solid #e6e6e6;
+	line-height: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: block;
+}
+
+.accordionSpace {
+	cursor:auto;	
+}
+
+.btnTitle {
+	float: left;
+	text-align: center;
+}
+
+
+
+.plusButton {
+	float: right;
+	display: inline-block;
+}
+
+.plusButton:after {
+	content: "+";
+}
+
+.on .plusButton:after {
+	content: "-";
+}
+
+.accordionContent {	
+	width: 92%;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+	background: #fff;
+	color: #555;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 1em;
+	text-align: justify;
+	
+}
+
+
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+	padding-left: 10%;
+	color: white;
+	background-color: green;
+	border-radius: 5px;
+}
+		
+
+p img {
+	max-width: 100%;
+}
+
+/* Start Mobile Media Query */
+@media only screen and (max-width: 960px) {
+	h1 {
+		text-align: center;
+		line-height: 1em;
+		font-size: 1.5em;
+		padding: 0.5em 1em 0.5em 1em;
+	}
+	
+	.accordionSpace,
+	.accordionButton {
+		line-height: 2em;
+		font-size: 0.5em;
+		font-weight: bold;
+	}
+}
+/* End Mobile Media Query */
+
+/* Begin Full Display Media Query */
+@media only screen and (min-width: 961px) {
+	
+	h1 {
+		text-align: center;
+		font-size: 3em;
+		padding: 1em;
+	}
+	
+	.accordionButton, 
+	.accordionContent, 
+	.accordionSpace {
+		min-width: 95%;
+		max-width: 95%;
+		display: block;
+		margin-left: 2.5%;
+	}
+	
+	.accordionSpace,
+	.accordionButton {
+		line-height: 2em;
+		font-size: 0.9em;
+		font-weight: bold;
+		transition: all 0.4s;
+	}
+} 
+/* End Full Display Media Query */
+
+
+.accordionButton:hover {
+	background-color: green;
+	border-radius: 5px 0 0 5px;
+	color: white;
+	min-width: 95%;
+	max-width: 95%;
+	transition: border-radius background-color max-width min-width 0.4s;
+}
