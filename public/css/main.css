@@ -2723,3 +2723,110 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+header h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.block_right{
+	height: 200px;
+	width: 100%;
+	background-color: white;
+	text-align: right;
+	transition: all 0.4s;
+}
+
+.block_left{
+	height: 200px;
+	
+	text-align: left;
+	width: 100%;
+	transition: all 0.4s;
+}
+
+.block_left:hover{
+	margin-left: 45px;
+	background-color: rgba(110,110,110,0.2);
+	transition: background-color margin-left 0.7s;
+}
+
+.block_right:hover{
+	margin-left: -45px;
+	background-color: rgba(110,110,110,0.2);
+	transition: background-color margin-left 0.7s;
+}
+
+.block_left img{
+	float: left;
+	height: 150px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.block_right img{
+	float: right;
+	height: 150px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+.principale_div{
+	widows: 100%;
+	position: relative;
+	z-index: 10000;
+}
+.secondaire_div{
+	border-radius: 0.5rem;
+	position: relative;
+	float: left;
+	background-color: #da4453;
+	width: 16%;
+	height: 250px;
+	margin-left: 3.333333333333333%;
+	transition: all 0.3s;
+}
+
+.principale_div div img{
+	width: 60%;
+	margin-top: 16%;
+	vertical-align: middle;
+}
+
+.principale_div p{
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin: 0;
+	padding-top: 45px;
+}
+
+.secondaire_div:hover{
+	box-shadow: 10px 10px #888888;
+	cursor: pointer;
+	margin-top: -10px;
+	transition: margin-top box-shadow 0.3s;
+}
+
+.images{
+	height: 125px;
+	line-height: 125px;
+}
+
+.images img{
+	border-radius: 0.5em;
+}
+
+.nomPrenom{
+	margin: 0 15% 0 15%;
+	padding-top: 3%;
+	color: rgba(0,0,0, 0.9);
+	font-weight: bold;
+}
+
+.email{
+	font-size: 1.1rem;
+	margin: 0 15% 0 15%;
+	color: rgba(0,0,0, 1);
+}

@@ -1,4 +1,4 @@
-    <section id="features">
+<!--    <section id="features">
         <div class="container">
             <div class="row">
                 <div class="single-features">
@@ -31,3 +31,18 @@
             </div>
         </div>
     </section>
+-->
+<header>
+    <h2>Portfolio de la classe</h2>
+</header>
+<a href="#"><div class="block_left">
+<img src="public/image/profil.jpg" Alt=""/>
+<p class="nomPrenom">Eleve 1</p>
+<p class="email" >adresse@gmail.com</p>
+</div></a>
+
+<a href="#"><div class="block_right">
+<img src="public/image/profil.jpg" Alt=""/>
+<p class="nomPrenom">Eleve 2</p>
+<p class="email" >adresse@hotmail.fr</p>
+</div></a>
